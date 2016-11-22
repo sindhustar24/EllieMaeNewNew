@@ -1,0 +1,50 @@
+html {
+  font-family: $font-family-sans-serif;
+
+  body {
+    margin: 0;
+    top: 0;
+    left: 0;
+
+    footer,
+    header,
+    section {
+      display: block;
+    }
+
+    a {
+      background-color: transparent;
+    }
+
+    a:active,
+    a:hover {
+      outline: 0;
+    }
+
+    img {
+      border: 0;
+    }
+
+    .container {
+      display:block;
+      min-height: 500px;
+    }
+
+    header {
+      height:35px;
+      max-height: 50px;
+    }
+
+  }
+
+  footer{
+    height: 200px;
+  }
+}
+
+
+
+
+
+
+

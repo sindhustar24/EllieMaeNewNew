@@ -1,0 +1,236 @@
+@media only screen and (min-width: 64.25em) {
+
+  .container {
+
+    section {
+
+      &.features {
+        height: 200px;
+        background: url(../assets/img1.jpeg) repeat;
+      }
+
+      article {
+        display: inline;
+
+        &.feature_webinar {
+          width: 50%;
+          height: inherit;
+          float: left;
+          background-color: #6c93ab;
+          opacity: .9;
+
+          h1 {
+            text-align: center;
+            font-family: inherit;
+            font-weight: normal;
+            font-style: initial;
+            color: white;
+            font-size: 25px;
+          }
+          p {
+            font-family: inherit;
+            font-weight: normal;
+            color: white;
+            text-align: center;
+            margin-top: -22px;
+            font-size: 8px;
+
+          }
+        }
+
+        &.feature_testimonial {
+          width: 50%;
+          height: inherit;
+          float: right;
+          background-color: rgba(27, 147, 185, 0.99);
+          opacity: 0.9;
+
+          h1 {
+            text-align: center;
+            font-family: inherit;
+            font-weight: normal;
+            font-style: initial;
+            color: white;
+            font-size: 25px;
+          }
+          p {
+            font-family: inherit;
+            font-weight: normal;
+            color: white;
+            text-align: center;
+            margin-top: -22px;
+            font-size: 8px;
+
+
+          }
+        }
+        button {
+          height: 25px;
+          width: 100px;
+          margin: 20px -60px;
+          position: relative;
+          top: 50%;
+          left: 50%;
+          color: aqua;
+          font-size: 9px;
+          background: white;
+        }
+      }
+
+
+      &.resources {
+
+        h2.resources-header {
+          display: block;
+          padding: 10px;
+          text-align: center;
+          font-size: 10px;
+          color: orange;
+        }
+
+        section.items {
+          display: inline;
+          margin: 0;
+          padding: 0;
+
+          ul {
+            list-style: none;
+            margin: 2px;
+            padding: 0;
+            text-align: center;
+
+            li {
+              width: 5%;
+              display: inline-block;
+              text-align: center;
+              padding: 5px;
+
+              span.item-header {
+                font-size: 0.6em;
+                font-weight: 500;
+                display: inline;
+                color: #b4c3bb;
+              }
+
+              i.circle-icon {
+                background: #d5dcda;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 50px;
+                vertical-align: middle;
+                padding: 5px;
+                display: inline;
+              }
+
+            }
+          }
+        }
+        .item-description{
+          height: 200px;
+          background-color: #d5dcda;
+
+          ul {
+
+            list-style: none;
+            margin: 2px;
+            padding: 0;
+            text-align: center;
+
+
+            li {
+              width: 5%;
+              display: inline-block;
+              text-align: center;
+
+
+              i{
+                margin-top: -.5em;
+                 color: white;
+                }
+            }
+
+          }
+
+          .item-details{
+            width: 50%;
+            float: left;
+
+            .empty-left{
+              width: 10%;
+              float: left;
+              display: inline;
+            }
+
+            .item-details-info{
+              float: right;
+              text-align: center;
+              width: 50%;
+              color: white;
+
+
+              h3{
+                font-size: 22px;
+              }
+              p{
+                font-size: 10px;
+              }
+            }
+
+            .item-stats{
+
+
+              .item-graph{
+                float: left;
+                text-align: center;
+                width: 50%;
+                color: white;
+                font-size: 22px;
+                padding: 10px;
+
+              }
+
+              .empty-right{
+                width: 10%;
+                float: right;
+                display: inline;
+              }
+
+            }
+
+          }
+
+
+        }
+
+          }
+
+        }
+
+      }
+
+
+    }
+
+
+#current-list li{
+  display: none;
+
+}
+
+#current-list li:first-child{
+  display: block;
+
+
+}
+
+
+
+
+
+
+
+
+
+

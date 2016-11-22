@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EllieMae</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+
+<header>
+    <span class="logo">
+        <img src="./assets/logo/logoE.svg" alt="ElliMae Logo">
+    </span>
+    <nav>
+        <i class="fa fa-bars" aria-hidden="true" id="menu-icon"></i>
+        <ul>
+            <li><a href="#" class="current"> ENCOMPASS</a></li>
+            <li><a href="#"> SUPPORT & SERVICES</a></li>
+            <li><a href="#"> CLIENTS </a></li>
+            <li><a href="#"> RESOURCES</a></li>
+            <li><a href="#">COMPANY</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+
+    <section class="features">
+        <article class="feature_webinar">
+            <h1>FEATURED WEBINAR</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing <br/>
+                elit, sed do incididunt ut labore etdolore magna laboris nisi<br/>
+                aliqua. Ut enim ad minim veniam, quis laboris nisilabor<br/>
+                nostrud exercitation ullamco laboris nisilaboris nisi
+
+            </p>
+            <button id="watch1">WATCH</button>
+        </article>
+        <article class="feature_testimonial">
+            <h1>FEATURED TESTIMONIAL</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing <br/>
+                elit, sed do incididunt ut labore etdolore magna laboris nisi<br/>
+                aliqua. Ut enim ad minim veniam, quis laboris nisilabor<br/>
+                nostrud exercitation ullamco laboris nisilaboris nisi
+
+            </p>
+            <button id="watch2">WATCH</button>
+        </article>
+    </section>
+
+
+    <section class="resources">
+        <h2 class="resources-header">RESOURCES</h2>
+        <section class="items">
+            <ul>
+                <li>
+                    <span class="item-header">ENCOMPASS</span><br/>
+                    <i class="fa fa-users fa-2x circle-icon"></i>
+                </li>
+                <li>
+                    <span class="item-header">PURPOSE</span><br/>
+                    <i class="fa fa-home fa-2x circle-icon"></i>
+                </li>
+                <li>
+                    <span class="item-header">O.I.R</span><br/>
+                    <i class="fa fa-money fa-2x circle-icon"></i>
+                </li>
+                <li>
+                    <span class="item-header">ETC</span><br/>
+                    <i class="fa fa-home fa-2x circle-icon"></i>
+                </li>
+                <li>
+                <span class="item-header">ETC</span><br/>
+                <i class="fa fa-bar-chart fa-2x circle-icon"></i>
+                </li>
+                <li>
+                    <span class="item-header">ETC</span><br/>
+                    <i class="fa fa-clock-o fa-2x circle-icon"></i>
+                </li>
+                <li>
+                    <span class="item-header">ETC</span><br/>
+                    <i class="fa fa-bar-chart fa-2x circle-icon"></i>
+                </li>
+                <li>
+                    <span class="item-header">ETC</span><br/>
+                    <i class="fa fa-address-book fa-2x circle-icon"></i>
+                </li>
+                <li>
+                    <span class="item-header">ETC</span><br/>
+                    <i class="fa fa-bank fa-2x circle-icon"></i>
+                </li>
+            </ul>
+        </section>
+
+        <!--<div id="encompass" class="tabcontent">-->
+            <!--<h3>Minimize Costs</h3>-->
+            <!--<p>More than 80,000 mortgage professionals/n-->
+                <!--trusts d2qbkjbgerkjgkjdfshgjsdhjfhdijhfg/N-->
+                <!--BIJDHIDHIVHDFSIUHBFSIUD/n-->
+            <!--</p>-->
+        <!--</div>-->
+
+        <section class="item-description">
+            <ul id="current-list">
+                <li class="item-selection">
+                    <i class="fa fa-4x fa-caret-down "></i>
+                </li>
+                <li class="item-selection">
+                    <i class="fa fa-4x fa-caret-down "></i>
+                </li>
+                <li class="item-selection">
+                    <i class="fa fa-4x fa-caret-down "></i>
+                </li>
+                <li class="item-selection">
+                    <i class="fa fa-4x fa-caret-down "></i>
+                </li>
+                <li class="item-selection">
+                <i class="fa fa-4x fa-caret-down "></i>
+                </li>
+                <li class="item-selection">
+                <i class="fa fa-4x fa-caret-down "></i>
+                </li>
+                <li class="item-selection">
+                    <i class="fa fa-4x fa-caret-down "></i>
+                </li>
+                <li class="item-selection">
+                    <i class="fa fa-4x fa-caret-down "></i>
+                </li>
+                <li class="item-selection">
+                    <i class="fa fa-4x fa-caret-down "></i>
+                </li>
+
+            </ul>
+            <article>
+                <div class="item-details">
+                    <div class="empty-left"></div>
+                    <div class="item-details-info">
+                        <h3>Minimize Costs and Maximize ROI</h3>
+                        <p>More than 80,000 mortgage professionals/n
+                        trusts mortgage professionals mortgage/n
+                            mortgage professionals/n
+                        </p>
+                    </div>
+                </div>
+                <div class="item-stats">
+                    <div class="item-graph"></div>
+                    <div class="empty-right"></div>
+                </div>
+            </article>
+        </section>
+    </section>
+
+</div>
+
+<footer></footer>
+
+<script src="js/jquery-3.1.1.js"></script>
+<script>
+
+    $(document).ready(function() {
+        //var ul = document.querySelector('section.items ul');
+
+        $('section.items li').click(function() {
+            console.log(this);
+            var index = $('section.items ul li').index(this);
+            $('section.item-description ul li').css('display', 'none');
+            index++;
+            var selector = 'section.item-description ul li:nth-child('+index+')';
+            $(selector).css('display', 'block');
+            console.log(index);
+            console.log(selector);
+        });
+
+    });
+
+</script>
+</body>
+</html>

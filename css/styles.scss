@@ -1,0 +1,16 @@
+  @import "variables.scss";
+  @import "main.scss";
+  @import "nav.scss";
+
+  @media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    @import "_desktop.scss";
+  }
+  @media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 640px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    @import "_iphone.scss";
+  }

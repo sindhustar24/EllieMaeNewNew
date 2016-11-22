@@ -1,0 +1,57 @@
+header{
+
+  padding: 5px 20px;
+
+  .logo{
+    float: left;
+
+    img {
+      width: 100px;
+      height: 30px;
+      max-width: 100px;
+      max-height: 30px;
+    }
+  }
+
+  nav {
+
+    width:60%;
+    text-align:right;
+    float: right;
+
+    #menu-icon {
+      display: none;
+    }
+
+    ul {
+      list-style: none;
+      text-align: center;
+      display: inline;
+      padding: 10px;
+
+      li {
+        display: inline-block;
+        padding: 2px;
+
+        a {
+          text-decoration: none;
+          font-size: 0.5em;
+          color: #b4c3bb;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+
+
+footer{
+
+
+}
+
+

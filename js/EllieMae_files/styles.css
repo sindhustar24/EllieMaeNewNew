@@ -1,0 +1,433 @@
+html {
+  font-family: "Open Sans", sans-serif;
+}
+html body {
+  margin: 0;
+  top: 0;
+  left: 0;
+}
+html body footer,
+html body header,
+html body section {
+  display: block;
+}
+html body a {
+  background-color: transparent;
+}
+html body a:active,
+html body a:hover {
+  outline: 0;
+}
+html body img {
+  border: 0;
+}
+html body .container {
+  display: block;
+  min-height: 500px;
+}
+html body header {
+  height: 35px;
+  max-height: 50px;
+}
+html footer {
+  height: 200px;
+}
+
+header {
+  padding: 5px 20px;
+}
+header .logo {
+  float: left;
+}
+header .logo img {
+  width: 100px;
+  height: 30px;
+  max-width: 100px;
+  max-height: 30px;
+}
+header nav {
+  width: 60%;
+  text-align: right;
+  float: right;
+}
+header nav #menu-icon {
+  display: none;
+}
+header nav ul {
+  list-style: none;
+  text-align: center;
+  display: inline;
+  padding: 10px;
+}
+header nav ul li {
+  display: inline-block;
+  padding: 2px;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-size: 0.5em;
+  color: #b4c3bb;
+}
+
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) and (min-width: 64.25em) {
+  .container section.features {
+    height: 200px;
+    background: url(../assets/img1.jpeg) repeat;
+  }
+  .container section article {
+    display: inline;
+  }
+  .container section article.feature_webinar {
+    width: 50%;
+    height: inherit;
+    float: left;
+    background-color: #6c93ab;
+    opacity: .9;
+  }
+  .container section article.feature_webinar h1 {
+    text-align: center;
+    font-family: inherit;
+    font-weight: normal;
+    font-style: initial;
+    color: white;
+    font-size: 25px;
+  }
+  .container section article.feature_webinar p {
+    font-family: inherit;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: -22px;
+    font-size: 8px;
+  }
+  .container section article.feature_testimonial {
+    width: 50%;
+    height: inherit;
+    float: right;
+    background-color: rgba(27, 147, 185, 0.99);
+    opacity: 0.9;
+  }
+  .container section article.feature_testimonial h1 {
+    text-align: center;
+    font-family: inherit;
+    font-weight: normal;
+    font-style: initial;
+    color: white;
+    font-size: 25px;
+  }
+  .container section article.feature_testimonial p {
+    font-family: inherit;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: -22px;
+    font-size: 8px;
+  }
+  .container section article button {
+    height: 25px;
+    width: 100px;
+    margin: 20px -60px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    color: aqua;
+    font-size: 9px;
+    background: white;
+  }
+  .container section.resources h2.resources-header {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+    color: orange;
+  }
+  .container section.resources section.items {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  .container section.resources section.items ul {
+    list-style: none;
+    margin: 2px;
+    padding: 0;
+    text-align: center;
+  }
+  .container section.resources section.items ul li {
+    width: 5%;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+  }
+  .container section.resources section.items ul li span.item-header {
+    font-size: 0.6em;
+    font-weight: 500;
+    display: inline;
+    color: #b4c3bb;
+  }
+  .container section.resources section.items ul li i.circle-icon {
+    background: #d5dcda;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    padding: 5px;
+    display: inline;
+  }
+  .container section.resources .item-description {
+    height: 200px;
+    background-color: #d5dcda;
+  }
+  .container section.resources .item-description ul {
+    list-style: none;
+    margin: 2px;
+    padding: 0;
+    text-align: center;
+  }
+  .container section.resources .item-description ul li {
+    width: 5%;
+    display: inline-block;
+    text-align: center;
+  }
+  .container section.resources .item-description ul li i {
+    margin-top: -.5em;
+    color: white;
+  }
+  .container section.resources .item-description .item-details {
+    width: 50%;
+    float: left;
+  }
+  .container section.resources .item-description .item-details .empty-left {
+    width: 10%;
+    float: left;
+    display: inline;
+  }
+  .container section.resources .item-description .item-details .item-details-info {
+    float: right;
+    text-align: center;
+    width: 50%;
+    color: white;
+  }
+  .container section.resources .item-description .item-details .item-details-info h3 {
+    font-size: 22px;
+  }
+  .container section.resources .item-description .item-details .item-details-info p {
+    font-size: 10px;
+  }
+  .container section.resources .item-description .item-details .item-stats .item-graph {
+    float: left;
+    text-align: center;
+    width: 50%;
+    color: white;
+    font-size: 22px;
+    padding: 10px;
+  }
+  .container section.resources .item-description .item-details .item-stats .empty-right {
+    width: 10%;
+    float: right;
+    display: inline;
+  }
+}
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  #current-list li {
+    display: none;
+  }
+
+  #current-list li:first-child {
+    display: block;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 640px) and (-webkit-min-device-pixel-ratio: 2) and (max-width: 40em) {
+  header .logo {
+    float: left;
+  }
+  header .logo img {
+    width: 100px;
+    height: 30px;
+    max-width: 100px;
+    max-height: 30px;
+  }
+
+  #menu-icon {
+    float: right;
+    border-bottom: 17px double black;
+    border-top: 6px solid black;
+    content: "Menu";
+    height: 10px;
+    width: 30px;
+    display: inline;
+    background: black;
+  }
+
+  .container section.features {
+    text-align: center;
+    height: 200px;
+    background: url(../assets/img1.jpeg) repeat;
+  }
+  .container section article {
+    display: inline;
+  }
+  .container section article.feature_webinar {
+    width: 100%;
+    height: inherit;
+    float: left;
+    background-color: #6c93ab;
+    opacity: .9;
+  }
+  .container section article.feature_webinar h1 {
+    text-align: center;
+    font-family: inherit;
+    font-weight: normal;
+    font-style: initial;
+    color: white;
+    font-size: 25px;
+  }
+  .container section article.feature_webinar p {
+    font-family: inherit;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: -22px;
+    font-size: 8px;
+  }
+  .container section article.feature_testimonial {
+    width: 100%;
+    height: inherit;
+    float: right;
+    background-color: rgba(27, 147, 185, 0.99);
+    opacity: 0.9;
+  }
+  .container section article.feature_testimonial h1 {
+    text-align: center;
+    font-family: inherit;
+    font-weight: normal;
+    font-style: initial;
+    color: white;
+    font-size: 25px;
+  }
+  .container section article.feature_testimonial p {
+    font-family: inherit;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: -22px;
+    font-size: 8px;
+  }
+  .container section article button {
+    height: 25px;
+    width: 100px;
+    margin: 20px -60px;
+    position: relative;
+    top: 50%;
+    left: 0;
+    color: aqua;
+    font-size: 9px;
+    background: white;
+  }
+  .container section.resources h2.resources-header {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+    color: orange;
+  }
+  .container section.resources section.items {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  .container section.resources section.items ul {
+    list-style: none;
+    margin: 2px;
+    padding: 0;
+    text-align: center;
+  }
+  .container section.resources section.items ul li {
+    width: 5%;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+  }
+  .container section.resources section.items ul li span.item-header {
+    font-size: 0.6em;
+    font-weight: 500;
+    display: inline;
+    color: #b4c3bb;
+  }
+  .container section.resources section.items ul li i.circle-icon {
+    background: #d5dcda;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    padding: 5px;
+    display: inline;
+  }
+  .container section.resources .item-description {
+    height: 200px;
+    background-color: #d5dcda;
+  }
+  .container section.resources .item-description ul {
+    list-style: none;
+    margin: 2px;
+    padding: 0;
+    text-align: center;
+  }
+  .container section.resources .item-description ul li {
+    width: 5%;
+    display: inline-block;
+    text-align: center;
+  }
+  .container section.resources .item-description ul li i {
+    margin-top: -.5em;
+    color: white;
+  }
+  .container section.resources .item-description .item-details {
+    width: 50%;
+    float: left;
+  }
+  .container section.resources .item-description .item-details .empty-left {
+    width: 10%;
+    float: left;
+    display: inline;
+  }
+  .container section.resources .item-description .item-details .item-details-info {
+    float: right;
+    text-align: center;
+    width: 50%;
+    color: white;
+  }
+  .container section.resources .item-description .item-details .item-details-info h3 {
+    font-size: 22px;
+  }
+  .container section.resources .item-description .item-details .item-details-info p {
+    font-size: 10px;
+  }
+  .container section.resources .item-description .item-details .item-stats .item-graph {
+    float: left;
+    text-align: center;
+    width: 50%;
+    color: white;
+    font-size: 22px;
+    padding: 10px;
+  }
+  .container section.resources .item-description .item-details .item-stats .empty-right {
+    width: 10%;
+    float: right;
+    display: inline;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 640px) and (-webkit-min-device-pixel-ratio: 2) {
+  #current-list li {
+    display: none;
+  }
+
+  #current-list li:first-child {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
